@@ -11,9 +11,9 @@ public class QueueStackExample {
         System.out.println("Queue elements:");
         queue.printQueue();
 
-        // Dequeue elements from the queue until it becomes empty
+        // Dequeue elements from the front of the queue until it becomes empty
         while (!queue.isEmpty()) {
-            System.out.println("Dequeued element: " + queue.dequeue());
+            System.out.println("Dequeued element from the front: " + queue.dequeue());
         }
 
         // Print the elements in the queue after dequeue operations

@@ -1,6 +1,5 @@
 import java.util.LinkedList;
 
-
 class Queue<T> {
     private LinkedList<T> list = new LinkedList<T>();
 
