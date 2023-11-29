@@ -32,8 +32,7 @@ class Stack<T> {
     // Print the elements in the stack
     public void printStack() {
         for (T element : list) {
-            System.out.print(element + " ");
+            System.out.println("->" + element);
         }
-        System.out.println();
     }
 }
